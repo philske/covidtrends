@@ -711,7 +711,7 @@ let app = new Vue({
 
     sliderSelected: false,
 
-    day: 7,
+    day: 4,
 
     icon: 'icons/play.svg',
 
