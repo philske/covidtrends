@@ -495,7 +495,7 @@ let app = new Vue({
           for (let date of dates) {
             arr.push(row[date]);
           }
-          let slope = arr.map((e,i,a) => e - a[i - 7]);
+          let slope = arr.map((e,i,a) => e - a[i - 1]);
           let region = row.region
 
           if (Object.keys(renames).includes(region)) {
